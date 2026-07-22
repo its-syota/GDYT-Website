@@ -1,0 +1,38 @@
+.tae-section{
+    background-color: rgb(43, 119, 226);
+    border:10px rgb(255, 204, 0);
+    margin:30px;
+    border-radius:50px;
+    border-color:black;
+
+}
+
+.kyle-section{
+    background-color: rgb(122, 2, 2);
+    border: 25px;
+    margin:67px;
+    border-radius:80px;
+    border-color: rgba(30, 122, 4, 0.942);
+}
+.kyle-h1{
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tae-h1{
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:yellow;
+}
+
+.tae-p{
+    font-size:25px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:yellow;
+}
+
+.kyle-p{
+    font-size: 15px;
+    font-family: monospace;
+    color: rgb(0, 0, 0);
+}
