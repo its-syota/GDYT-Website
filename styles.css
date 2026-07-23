@@ -36,3 +36,30 @@
     font-family: monospace;
     color: rgb(0, 0, 0);
 }
+
+.taeclass{
+    background-color: rgba(0, 0, 255, 0.955);
+    color:white;
+    border-radius: 60px;
+    padding: 55px;
+
+    
+}
+
+.kyleclass{
+    background-color: brown;
+    color:black;
+    border-radius:70px;
+    padding: 44px;
+
+}
+
+.taeclass:hover{
+    cursor: pointer;
+    background-color: purple;
+}
+
+.kyleclass:hover{
+    cursor:pointer;
+    background-color:white
+}
