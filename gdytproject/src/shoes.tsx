@@ -1,16 +1,10 @@
 import './App.css'
-import Navbar from './components/Navbar'
-import Footer from  './components/Footer'
 
-function shoes(){
+function Shoes(){
     return(
-        <>
-            <Navbar />
-
-            <Footer />
-        </>
-
-
+        <div className="main">
+            <h1 style={{color: 'navy'}}>Shoes</h1>
+        </div>
     )
 }
-export default shoes 
+export default Shoes

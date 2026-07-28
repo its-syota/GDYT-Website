@@ -1,13 +1,13 @@
+import { Routes, Route } from 'react-router-dom'
 import './App.css'
 import Navbar from './components/Navbar'
 import Footer from  './components/Footer'
+import Shoes from './shoes'
+import ComingSoon from './components/ComingSoon'
 
-function App() {
-
-
+function Home() {
   return (
     <>
-    <Navbar />
     <div className="banner">
       <h1 style={{color: 'navy'}}>placeholder</h1>
     </div>
@@ -19,9 +19,27 @@ function App() {
         This website resales,buys,collect pieces of clothing,accessiories,shoes,and collectables.
       </p>
       <h2>
-        
+
       </h2>
     </div>
+    </>
+  )
+}
+
+function App() {
+
+
+  return (
+    <>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/shoes" element={<Shoes />} />
+      <Route path="/tops" element={<ComingSoon title="Tops" />} />
+      <Route path="/pants" element={<ComingSoon title="Pants" />} />
+      <Route path="/accessories" element={<ComingSoon title="Accessories" />} />
+      <Route path="/checkout" element={<ComingSoon title="Checkout" />} />
+    </Routes>
 
     <Footer />
     </>
