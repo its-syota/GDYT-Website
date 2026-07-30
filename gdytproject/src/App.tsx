@@ -19,10 +19,14 @@ function Home() {
         This website resales,buys,collect pieces of clothing,accessiories,shoes,and collectables.
       </p>
   
-      <ProductCard />
+      
     </div>
-     <ProductCard />
-     <div className="main">
+     
+     <div className="sales-content">
+      <ProductCard /> 
+      <ProductCard />
+      <ProductCard />
+      <ProductCard />
       <ProductCard />
      </div>
 

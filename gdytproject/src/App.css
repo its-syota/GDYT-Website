@@ -1,10 +1,10 @@
 nav {
   padding: 2px 12px;
-  background-color:bisque;
+  background-color:var(--navbar-color);
 }
 
 nav a {
-  color:navy;
+  color:var(--text-color);
   text-decoration: none;
   font-weight: bold;
 }
@@ -22,21 +22,21 @@ nav a:hover {
 footer{
   margin-top: 40px;
   padding: 15px;
-  background-color: bisque;
+  background-color:var(--content-color);
   font-size: 12px;
-  color:navy;
+  color:var(--text-color);
 }
 
 .main{
   margin: 16px;
-  background-color: bisque;
+  background-color: var(--content-color);
   padding-bottom: 18px;
   padding-top:20px ;
   border-radius: 8px;
 }
 
 .banner{
-  background-color: bisque;
+  background-color: var(--content-color);
   padding: 80px 20px;
   text-align: center;
   margin: 20px;
@@ -44,12 +44,38 @@ footer{
 }
 
 body{
-  background-color: azure;
+  background-color: var(--background-color);
 }
 
 .product-card-body{
-  background-color: cornsilk;
-  border-radius: 500px;
-  padding-top: 15px;
-  width: 200px;
+  background-color: var(--product-card-color);
+  border-radius: 8px;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  width: 300px;
+  gap: 16px;
+}
+
+.product-card{
+  gap: 16px;
+  padding: 16px;
+}
+.sales-content{
+  margin: 16px;
+  background-color: var(--content-color);
+  padding-bottom: 18px;
+  padding-top:20px ;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+:root{
+  --background-color: #F8F9FA;
+  --content-color: #CED4DA;
+  --navbar-color: #E9ECEF;
+  --text-color: #343A40;
+  --product-card-color: #DEE2E6;
+  --link-text-color: #6c757d;
 }
