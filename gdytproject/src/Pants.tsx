@@ -3,18 +3,18 @@ import Navbar from './components/Navbar'
 import Footer from  './components/Footer'
 import ProductCard from './components/ProductCard'
 
-function Shoes(){
+function pants(){
     return(
 <>
     <div className="banner">
-      <h1 style={{color: 'navy'}}>Shoes</h1>
+      <h1 style={{color: 'navy'}}>Pants</h1>
     </div>
     <div className="main">
       <h1 style={{color:'navy'}}>
-        Where every pair tells a story.
+        The perfect fit starts from the ground up.
       </h1>
       <p style={{color:'navy'}}>
-        The hottest sneaker drops on the market—ranked by real demand, live bids, and what buyers want most. If it's here, it won't stay for long.
+        Shop the styles that are setting the trend. Premium pants, modern fits, and new arrivals that are selling fast.es.
       </p>
   
       
@@ -31,4 +31,4 @@ function Shoes(){
     </>
     )
 }
-export default Shoes
+export default pants

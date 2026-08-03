@@ -3,8 +3,12 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Footer from  './components/Footer'
 import Shoes from './shoes'
+import Tops from './Tops'
 import ComingSoon from './components/ComingSoon'
 import ProductCard from './components/ProductCard'
+import Pants from './Pants'
+import Accessories from './Accessories'
+
 function Home() {
   return (
     <>
@@ -45,9 +49,9 @@ function App() {
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/shoes" element={<Shoes />} />
-      <Route path="/tops" element={<ComingSoon title="Tops" />} />
-      <Route path="/pants" element={<ComingSoon title="Pants" />} />
-      <Route path="/accessories" element={<ComingSoon title="Accessories" />} />
+      <Route path="/tops" element={<Tops />} />
+      <Route path="/pants" element={<Pants />} />
+      <Route path="/accessories" element={<Accessories />} />
       <Route path="/checkout" element={<ComingSoon title="Checkout" />} />
     </Routes>
 
