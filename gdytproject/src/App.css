@@ -60,6 +60,35 @@ body{
   gap: 16px;
   padding: 16px;
 }
+
+.product-card-description {
+  color: var(--link-text-color);
+}
+
+.product-card-description a:hover {
+  color: blue;
+}
+
+.product-card-title{
+  color: var(--link-text-color);
+}
+
+.product-card-title a:hover{
+  color: blue;
+}
+
+.product-card-price{
+color: var(--link-text-color);
+}
+
+.product-card-price a:hover{
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
 .sales-content{
   margin: 16px;
   background-color: var(--content-color);
@@ -79,3 +108,4 @@ body{
   --product-card-color: #DEE2E6;
   --link-text-color: #6c757d;
 }
+
