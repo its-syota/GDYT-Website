@@ -7,17 +7,14 @@ function Tops(){
     return(
 <>
     <div className="banner">
-      <h1 style={{color: 'navy'}}>Tops</h1>
-    </div>
-    <div className="main">
-      <h1 style={{color:'navy'}}>
-        Every outfit begins with the right top.
-      </h1>
-      <p style={{color:'navy'}}>
+      <h1 style={{color:'white'}}>
+        Every outfit begins with the right top.      </h1>
+      <p style={{color:'white'}}>
         Explore the latest tops making waves across the marketplace. Fresh styles, high demand, and limited availability.
       </p>
-  
-      
+      <a href='' className="banner-button">
+        Shop Now
+      </a>
     </div>
      
      <div className="sales-content">

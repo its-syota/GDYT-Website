@@ -7,18 +7,16 @@ function Accessories(){
     return(
 <>
     <div className="banner">
-      <h1 style={{color: 'navy'}}>Accessories</h1>
-    </div>
-    <div className="main">
-      <h1 style={{color:'navy'}}>
+      <h1 style={{color:'white'}}>
     The final touch to every perfect fit.
-      </h1>
-      <p style={{color:'navy'}}>
+        </h1>
+      <p style={{color:'white'}}>
         Discover the details that define your style. Explore a curated collection of premium accessories, crafted to complete every look.
       </p>
-  
-      
-    </div>
+      <a href='' className="banner-button">
+        Shop Now
+      </a>
+    </div>    
      
      <div className="sales-content">
       <ProductCard /> 

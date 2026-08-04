@@ -7,17 +7,15 @@ function Shoes(){
     return(
 <>
     <div className="banner">
-      <h1 style={{color: 'navy'}}>Shoes</h1>
-    </div>
-    <div className="main">
-      <h1 style={{color:'navy'}}>
-        Where every pair tells a story.
+      <h1 style={{color:'white'}}>
+        Where every pair tells a story
       </h1>
-      <p style={{color:'navy'}}>
+      <p style={{color:'white'}}>
         The hottest sneaker drops on the market—ranked by real demand, live bids, and what buyers want most. If it's here, it won't stay for long.
       </p>
-  
-      
+      <a href='' className="banner-button">
+        Shop Now
+      </a>
     </div>
      
      <div className="sales-content">

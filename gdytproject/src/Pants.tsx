@@ -7,18 +7,17 @@ function pants(){
     return(
 <>
     <div className="banner">
-      <h1 style={{color: 'navy'}}>Pants</h1>
-    </div>
-    <div className="main">
-      <h1 style={{color:'navy'}}>
+      <h1 style={{color:'white'}}>
         The perfect fit starts from the ground up.
-      </h1>
-      <p style={{color:'navy'}}>
+        </h1>
+      <p style={{color:'white'}}>
         Shop the styles that are setting the trend. Premium pants, modern fits, and new arrivals that are selling fast.es.
       </p>
-  
-      
+      <a href='' className="banner-button">
+        Shop Now
+      </a>
     </div>
+
      
      <div className="sales-content">
       <ProductCard /> 

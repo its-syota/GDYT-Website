@@ -12,18 +12,17 @@ import Accessories from './Accessories'
 function Home() {
   return (
     <>
+    
     <div className="banner">
-      <h1 style={{color: 'navy'}}>placeholder</h1>
-    </div>
-    <div className="main">
-      <h1 style={{color:'navy'}}>
+      <h1 style={{color:'white'}}>
         Our website brings positivity
       </h1>
-      <p style={{color:'navy'}}>
+      <p style={{color:'white'}}>
         This website resales,buys,collect pieces of clothing,accessiories,shoes,and collectables.
       </p>
-  
-      
+      <a href='' className="banner-button">
+        Shop Now
+      </a>
     </div>
      
      <div className="sales-content">
