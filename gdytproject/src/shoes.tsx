@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Footer from  './components/Footer'
 import ProductCard from './components/ProductCard'
+import { Link } from 'react-router-dom'
 
 function Shoes(){
     return(
@@ -13,9 +14,9 @@ function Shoes(){
       <p style={{color:'white'}}>
         The hottest sneaker drops on the market—ranked by real demand, live bids, and what buyers want most. If it's here, it won't stay for long.
       </p>
-      <a href='' className="banner-button">
+      <Link to="" className="banner-button">
         Shop Now
-      </a>
+      </Link>
     </div>
      
      <div className="sales-content">

@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Footer from  './components/Footer'
 import ProductCard from './components/ProductCard'
+import { Link } from 'react-router-dom'
 
 function Tops(){
     return(
@@ -12,9 +13,9 @@ function Tops(){
       <p style={{color:'white'}}>
         Explore the latest tops making waves across the marketplace. Fresh styles, high demand, and limited availability.
       </p>
-      <a href='' className="banner-button">
+      <Link to="" className="banner-button">
         Shop Now
-      </a>
+      </Link>
     </div>
      
      <div className="sales-content">

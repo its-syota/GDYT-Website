@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Footer from  './components/Footer'
 import ProductCard from './components/ProductCard'
+import { Link } from 'react-router-dom'
 
 function Accessories(){
     return(
@@ -13,9 +14,9 @@ function Accessories(){
       <p style={{color:'white'}}>
         Discover the details that define your style. Explore a curated collection of premium accessories, crafted to complete every look.
       </p>
-      <a href='' className="banner-button">
+      <Link to="" className="banner-button">
         Shop Now
-      </a>
+      </Link>
     </div>    
      
      <div className="sales-content">

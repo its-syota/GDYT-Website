@@ -137,5 +137,83 @@ footer a:hover {
 
 }
 .banner a:hover{
-background-color: navy;
+background-color: var(--link-text-color);
+}
+h3{
+  text-align: left;
+  position: grid;
+  bottom:0;
+  left:0;
+  margin:67;
+  color: var(--text-color);
+}
+
+.Checkout-h1{
+  color: var(--text-color);
+  text-align: left;
+  
+}
+
+h4{
+  text-align: left;
+  position: grid;
+  bottom:0;
+  left:0;
+  margin:67;
+  color: var(--text-color);
+}
+
+.Checkout-card-body{
+  background-color: var(--product-card-color);
+  border-radius: 8px;
+  padding-top: 20px;
+  padding-bottom: 8px;
+  width: 600px;
+  gap: 16px;
+  display:flex;
+  padding-left: 16px;
+  
+}
+
+.Checkout-card{
+  gap: 16px;
+  padding: 16px;
+}
+
+.Checkout-card-description {
+  color: var(--link-text-color);
+}
+
+.Checkout-card-description a:hover {
+  color: blue;
+}
+
+.Checkout-card-title{
+  color: var(--link-text-color);
+}
+
+.Checkout-card-title a:hover{
+  color: blue;
+}
+
+.Checkout-card-price{
+color: var(--link-text-color);
+}
+
+.Checkout-card-price a:hover{
+  color: blue;
+}
+
+.Checkout-info{
+  text-align: left;
+  position: grid;
+  bottom:0;
+  left:0;
+  margin:67;
+
+}
+
+.Checkout-container{
+  margin-left: 16px;
+  
 }

@@ -5,9 +5,11 @@ import Footer from  './components/Footer'
 import Shoes from './shoes'
 import Tops from './Tops'
 import ComingSoon from './components/ComingSoon'
+import Checkout from './Checkout'
 import ProductCard from './components/ProductCard'
 import Pants from './Pants'
 import Accessories from './Accessories'
+import { Link } from 'react-router-dom'
 
 function Home() {
   return (
@@ -20,9 +22,9 @@ function Home() {
       <p style={{color:'white'}}>
         This website resales,buys,collect pieces of clothing,accessiories,shoes,and collectables.
       </p>
-      <a href='' className="banner-button">
+      <Link to="" className="banner-button">
         Shop Now
-      </a>
+      </Link>
     </div>
      
      <div className="sales-content">
@@ -51,7 +53,7 @@ function App() {
       <Route path="/tops" element={<Tops />} />
       <Route path="/pants" element={<Pants />} />
       <Route path="/accessories" element={<Accessories />} />
-      <Route path="/checkout" element={<ComingSoon title="Checkout" />} />
+      <Route path="/checkout" element={<Checkout />} />
     </Routes>
 
     <Footer />

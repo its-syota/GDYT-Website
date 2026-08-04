@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Footer from  './components/Footer'
 import ProductCard from './components/ProductCard'
+import { Link } from 'react-router-dom'
 
 function pants(){
     return(
@@ -13,9 +14,9 @@ function pants(){
       <p style={{color:'white'}}>
         Shop the styles that are setting the trend. Premium pants, modern fits, and new arrivals that are selling fast.es.
       </p>
-      <a href='' className="banner-button">
+      <Link to="" className="banner-button">
         Shop Now
-      </a>
+      </Link>
     </div>
 
      
