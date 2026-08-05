@@ -3,6 +3,8 @@ import Navbar from './components/Navbar'
 import Footer from  './components/Footer'
 import { NavLink } from 'react-router-dom'
 import Sample from './assets/Sample.png'
+import { Link } from 'react-router-dom'
+
 function Checkout(){
     return(
         <div className="Checkout-container">
@@ -19,8 +21,13 @@ function Checkout(){
             </div>
             <div className="info-container">
                 <h3>Summary</h3>
-                <h3>Do you have a Promo Code?</h3>
+                <ul className='item-ul'>
+                    <li>Sample item (x1)</li>
+                </ul>
+                <h3>Promo Code</h3>
+                <input type="text" id="promo" name="promo" placeholder='enter promo code' className="promo-button"/>
                 <h3>Subtotal</h3>
+                <Link to="" className="Checkout-button">Checkout</Link>
             </div>
 
         </div>

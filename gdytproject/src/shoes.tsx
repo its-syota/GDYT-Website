@@ -25,6 +25,11 @@ function Shoes(){
       <ProductCard />
       <ProductCard />
       <ProductCard />
+      <ProductCard /> 
+      <ProductCard />
+      <ProductCard />
+      <ProductCard />
+      <ProductCard />
      </div>
 
     </>

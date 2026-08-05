@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function ProductCard() {
     return(
-        <Link to="" className="product-card">
+        <Link to="/item" className="product-card">
             <div className="product-card-body">
                 <img src={Sample} className="product-card-img"/>
                 <h2 className="product-card-title">sample</h2>

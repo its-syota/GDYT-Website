@@ -9,6 +9,7 @@ import Checkout from './Checkout'
 import ProductCard from './components/ProductCard'
 import Pants from './Pants'
 import Accessories from './Accessories'
+import Item from './Item'
 import { Link } from 'react-router-dom'
 
 function Home() {
@@ -22,17 +23,25 @@ function Home() {
       <p style={{color:'white'}}>
         This website resales,buys,collect pieces of clothing,accessiories,shoes,and collectables.
       </p>
-      <Link to="" className="banner-button">
+      <Link to="/Shoes" className="banner-button">
         Shop Now
       </Link>
     </div>
      
      <div className="sales-content">
-      <ProductCard /> 
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
+      <h1 className="about-us-h1">About us</h1>
+      <p className="about-us-p">
+        The GDYT Program was is a program that aims to teach new skills to Detroit Youth. This has been a wonderful experience.
+        - Jordan
+        <br></br>
+        <br></br>
+        Gdyt is a program where you can create amazing memories, make wonderfull new friends and bond over new skills your learning through the six week course.
+        -Tae
+        <br></br>
+        <br></br>
+        GDYT is  program where you can come in knowing nothing and leave with alot of new skills and information. I am thankful I got this opportunity to be able to learn code. 
+        -Kyle
+      </p>
      </div>
 
     </>
@@ -54,6 +63,7 @@ function App() {
       <Route path="/pants" element={<Pants />} />
       <Route path="/accessories" element={<Accessories />} />
       <Route path="/checkout" element={<Checkout />} />
+      <Route path="/item" element={<Item />} />
     </Routes>
 
     <Footer />

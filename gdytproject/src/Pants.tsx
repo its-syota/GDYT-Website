@@ -26,6 +26,8 @@ function pants(){
       <ProductCard />
       <ProductCard />
       <ProductCard />
+      <ProductCard />
+      <ProductCard />
      </div>
 
     </>
