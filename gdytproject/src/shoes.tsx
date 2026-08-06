@@ -1,6 +1,4 @@
 import './App.css'
-import Navbar from './components/Navbar'
-import Footer from  './components/Footer'
 import ProductCard from './components/ProductCard'
 import { Link } from 'react-router-dom'
 

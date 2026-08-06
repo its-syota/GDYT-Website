@@ -1,7 +1,6 @@
 import './App.css'
 import Sample from './assets/Sample.png'
 import { Link } from 'react-router-dom'
-import Checkout from './Checkout'
 
 
 

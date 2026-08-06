@@ -1,7 +1,4 @@
 import './App.css'
-import Navbar from './components/Navbar'
-import Footer from  './components/Footer'
-import { NavLink } from 'react-router-dom'
 import Sample from './assets/Sample.png'
 import { Link } from 'react-router-dom'
 
