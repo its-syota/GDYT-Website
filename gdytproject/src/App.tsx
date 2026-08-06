@@ -39,6 +39,10 @@ function Home() {
         <br></br>
         GDYT is  program where you can come in knowing nothing and leave with alot of new skills and information. I am thankful I got this opportunity to be able to learn code. 
         -Kyle
+        <br></br>
+        <br></br>
+        I learn a lot from css and react if i want to make my own website i'll have to go off of 
+        - Jayden
       </p>
      </div>
 

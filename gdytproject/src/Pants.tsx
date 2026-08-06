@@ -1,5 +1,6 @@
 import './App.css'
 import ProductCard from './components/ProductCard'
+import { pantsProducts } from './data/products'
 import { Link } from 'react-router-dom'
 
 function pants(){
@@ -19,13 +20,9 @@ function pants(){
 
      
      <div className="sales-content">
-      <ProductCard /> 
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
+      {pantsProducts.map((product, index) => (
+        <ProductCard key={index} {...product} />
+      ))}
      </div>
 
     </>

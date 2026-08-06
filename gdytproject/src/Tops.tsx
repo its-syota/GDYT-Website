@@ -1,5 +1,6 @@
 import './App.css'
 import ProductCard from './components/ProductCard'
+import { topsProducts } from './data/products'
 import { Link } from 'react-router-dom'
 
 function Tops(){
@@ -17,20 +18,9 @@ function Tops(){
     </div>
      
      <div className="sales-content">
-      <ProductCard /> 
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard /> 
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
+      {topsProducts.map((product, index) => (
+        <ProductCard key={index} {...product} />
+      ))}
      </div>
 
     </>

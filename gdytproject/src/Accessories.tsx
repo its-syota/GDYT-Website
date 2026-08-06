@@ -1,5 +1,6 @@
 import './App.css'
 import ProductCard from './components/ProductCard'
+import { accessoriesProducts } from './data/products'
 import { Link } from 'react-router-dom'
 
 function Accessories(){
@@ -18,11 +19,9 @@ function Accessories(){
     </div>    
      
      <div className="sales-content">
-      <ProductCard /> 
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
-      <ProductCard />
+      {accessoriesProducts.map((product, index) => (
+        <ProductCard key={index} {...product} />
+      ))}
      </div>
 
     </>
