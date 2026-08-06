@@ -1,5 +1,3 @@
-import Sample from '../assets/Sample.png'
-
 // Shoes
 import retroRunner from '../assets/retro runner.webp'
 import cloudStep from '../assets/cloud step.webp'
