@@ -29,7 +29,7 @@ function Home() {
      <div className="sales-content">
       <h1 className="about-us-h1">About us</h1>
       <p className="about-us-p">
-        The GDYT Program was is a program that aims to teach new skills to Detroit Youth. This has been a wonderful experience.
+        The GDYT Program is a program that aims to teach new skills to Detroit Youth. This has been a wonderful experience primarily because of the hard work and dedication of the interns I had the pleasure of working with.
         - Jordan
         <br></br>
         <br></br>
@@ -41,7 +41,7 @@ function Home() {
         -Kyle
         <br></br>
         <br></br>
-        I learn a lot from css and react if i want to make my own website i'll have to go off of 
+        I learned a lot of css and react. If i want to make my own website i'll have this to go off of 
         - Jayden
       </p>
      </div>
