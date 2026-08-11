@@ -16,10 +16,10 @@ function Home() {
     
     <div className="banner">
       <h1 style={{color:'white'}}>
-        Our website brings positivity
+        GDYT Retail Website
       </h1>
       <p style={{color:'white'}}>
-        This website resales,buys,collect pieces of clothing,accessiories,shoes,and collectables.
+        This website brings positivity by allowing the community to resale, buy and collect pieces of clothing, accessiories, shoes, and collectables.
       </p>
       <Link to="/Shoes" className="banner-button">
         Shop Now
